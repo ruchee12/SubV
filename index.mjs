@@ -50,7 +50,7 @@ await Promise.all([
         Alicedetails: async () => {
             return {
                 nftid: theNFT.id,
-                maxnumoftickets: parseInt(7)
+                maxnumoftickets: parseInt(65)
             }
         },
 
@@ -60,7 +60,7 @@ await Promise.all([
         },
     }),
     await Bobs(accBobs[0], 12),
-    await Bobs(accBobs[1], 223),
+    await Bobs(accBobs[1], 22),
     await Bobs(accBobs[2], 1),
     await Bobs(accBobs[3], 45),
     await Bobs(accBobs[4], 17),
